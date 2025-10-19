@@ -1,3 +1,10 @@
 {
-    "routes": [{ "handle": "filesystem" }, { "src": "/(.*)", "dest": "/index.html" }]
+  "buildCommand": "npm install --workspaces && npm run build:all",
+  "installCommand": "npm install --workspaces",
+  "outputDirectory": "packages/trader/dist",
+  "framework": null,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
