@@ -65,7 +65,8 @@
         "webpack": "^5.81.0",
         "webpack-cli": "^5.1.4",
         "webpack-manifest-plugin": "^4.0.2",
-        "webpack-node-externals": "^2.5.2"
+        "webpack-node-externals": "^2.5.2",
+        "rimraf": "^5.0.7"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1 ",
