@@ -58,7 +58,8 @@
     "stylelint-no-unsupported-browser-features": "^4.0.0",
     "stylelint-selector-bem-pattern": "^4.0.1",
     "stylelint-webpack-plugin": "^5.0.1",
-    "ts-jest": "^29.2.5"
+    "ts-jest": "^29.2.5",
+    "rimraf": "^5.0.7"
   },
   "scripts": {
     "serve": "npm run build:all && echo 'Serve command placeholder (adjust if needed)'",
